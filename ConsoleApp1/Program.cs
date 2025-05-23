@@ -8,7 +8,7 @@ class TicTacToe
         const int ROWS = 3;
         const int COLS = 3;
         string[,] grid = new string[ROWS, COLS];
-        string[] gridNumbers = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+        string[] cellNumbers = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
         int index = 0;
         Console.WriteLine("print the grid");
         for (int i = 0; i < ROWS; i++)
