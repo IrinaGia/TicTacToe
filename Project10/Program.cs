@@ -10,7 +10,7 @@ class TicTacToe
         string[,] grid = new string[ROWS, COLS];
         string[] cellNumbers = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
         int index = 0;
-        Console.WriteLine("print the grid");
+        Console.WriteLine("TicTacToe Board");
         for (int i = 0; i < ROWS; i++)
         {
             for (int j = 0; j < COLS; j++) 
