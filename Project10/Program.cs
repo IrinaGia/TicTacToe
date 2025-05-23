@@ -15,7 +15,7 @@ class TicTacToe
         {
             for (int j = 0; j < COLS; j++) 
             {
-                grid[i, j] = gridNumbers[index];
+                grid[i, j] = cellNumbers[index];
                 Console.Write(grid[i, j] + "_|");
                 index++;
             }
